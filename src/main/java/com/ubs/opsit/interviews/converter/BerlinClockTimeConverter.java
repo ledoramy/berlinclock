@@ -42,7 +42,7 @@ public class BerlinClockTimeConverter implements TimeConverter {
         return String.format("%s\n%s", getTopMinutesRepresentation(minutes), getBottomMinutesRepresentation(minutes));
     }
 
-    protected String getSecondsRepresentation(String seconds) {
+    public String getSecondsRepresentation(String seconds) {
         int secondsValue = Integer.parseInt(seconds);
         return secondsValue % SECONDS_DELIMITER == 0 ? YELLOW_LABEL : OFF_LABEL;
     }
