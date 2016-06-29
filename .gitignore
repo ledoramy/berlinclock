@@ -1,5 +1,5 @@
-/.gradle
-/.idea
-/build
+.gradle
+.idea
+build
+berlinclock.iml
 
-berlin-clock.iml
